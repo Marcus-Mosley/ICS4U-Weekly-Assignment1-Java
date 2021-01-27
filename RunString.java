@@ -15,7 +15,7 @@ public class RunString {
   public static int maxRun(String str) {
     char runChar = str.charAt(0);
     int runCount = 1;
-    int max = 0;
+    int max = 1;
 
     for (int counter = 1; counter < str.length(); counter++) {
       if (str.charAt(counter) == runChar) {
